@@ -15,4 +15,5 @@ func main() {
 	fmt.Println(*myIntPointer)
 	var myFloatPointer *float64 = createPointer()
 	fmt.Println(*myFloatPointer)
+  fmt.Println(&myFloatPointer)
 }
